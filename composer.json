@@ -1,0 +1,16 @@
+{
+  "name": "s1syphos/kirby-device",
+  "description": "Comprehensive user agent & device detection for Kirby",
+  "type": "kirby-plugin",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Martin Folkers",
+      "homepage": "https://twobrain.io",
+      "role": "Project Author"
+    }
+  ],
+  "require": {
+    "piwik/device-detector": "^3.10"
+  }
+}
