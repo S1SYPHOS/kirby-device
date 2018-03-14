@@ -14,9 +14,11 @@ if (c::get('plugin.kirby-device', false)) {
     // Initialising composer's autoloader
     require_once __DIR__ . DS . 'vendor/autoload.php';
 
-    function device() {
-      // Loading settings & core
-      require_once __DIR__ . DS . 'core' . DS . 'device_detection.php';
-      return (new Kirby\Plugins\Device\Detect)->detectDevice();
+    // Loading settings & core
+    require_once __DIR__ . DS . 'core' . DS . 'device_detection.php';
+
+    function device()
+    {
+        return (new Kirby\Plugins\Device\Detect)->detectDevice();
     }
 }
