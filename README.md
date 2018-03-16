@@ -93,7 +93,13 @@ c::set('plugin.kirby-device', true);
 ```
 
 ## Configuration
+Change `kirby-device` options to suit your needs:
+
 TODO
+
+| Option | Type | Default | Description |
+| --- | --- | --- | --- |
+| `plugin.kirby-device.truncate-version` | String | `minor` | Defines the browser build or version format according to the [semantic versioning](https://semver.org/) specification (allowed values are `major`, `minor`, `patch` as well as `build` & `none`). |
 
 ## Credits / License
 `kirby-device` is based on Matomo's [DeviceDetector](https://github.com/matomo-org/device-detector) and was inspired by [Sonja Broda](https://github.com/texnixe)'s Kirby plugin [kirby-mobile-detect](https://github.com/texnixe/kirby-mobile-detect) (an implementation of Şerban Ghiţă's [Mobile-Detect](https://github.com/serbanghita/Mobile-Detect)). It is licensed under the [MIT License](LICENSE), but **using Kirby in production** requires you to [buy a license](https://getkirby.com/buy). Are you ready for the [next step](https://getkirby.com/next)?
