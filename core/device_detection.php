@@ -18,7 +18,8 @@ class Detect
 
     protected function setVersionTruncation($version)
     {
-        $constant = 'DeviceDetector\Parser\Device\DeviceParserAbstract::VERSION_TRUNCATION_' . strtoupper($version);
+        $string = strtoupper($version);
+        $constant = DeviceParserAbstract::class . '::VERSION_TRUNCATION_' . $string;
 
         if (defined($constant)) {
             return DeviceParserAbstract::setVersionTruncation(constant($constant));
