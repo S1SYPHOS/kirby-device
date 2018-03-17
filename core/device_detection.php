@@ -35,7 +35,9 @@ class Detect
 
     public function detectDevice()
     {
-        self::setVersionTruncation($this->truncateVersion);
+        if ($this->truncateVersion) {
+            self::setVersionTruncation($this->truncateVersion);
+        }
 
         $userAgent = $_SERVER['HTTP_USER_AGENT'];
         $detect = new DeviceDetector($userAgent);
