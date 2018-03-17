@@ -51,8 +51,8 @@ Change `kirby-device` options to suit your needs:
 | Option | Type | Default | Description |
 | --- | --- | --- | --- |
 | `plugin.kirby-device.truncate-version` | String | `minor` | Defines the browser build or version format according to the [semantic versioning](https://semver.org/) specification (allowed values are `major`, `minor`, `patch` as well as `build` & `none`). |
-
-TO BE CONTINUED
+| `plugin.kirby-device.enable-filecache` | Boolean | `true` | Optionally enables / disables filecache. |
+| `plugin.kirby-device.filecache-directory` | String | `kirby()->roots()->cache()` | Defines path to filecache directory. |
 
 ## Available methods
 These methods are available to meet your device detection requirements:

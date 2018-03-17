@@ -13,11 +13,16 @@ class ComposerStaticInite9eed2c4df342ec7cf40751a56edfb3d
     public static $prefixLengthsPsr4 = array (
         'D' => 
         array (
+            'Doctrine\\Common\\Cache\\' => 22,
             'DeviceDetector\\' => 15,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
+        'Doctrine\\Common\\Cache\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/doctrine/cache/lib/Doctrine/Common/Cache',
+        ),
         'DeviceDetector\\' => 
         array (
             0 => __DIR__ . '/..' . '/piwik/device-detector',
