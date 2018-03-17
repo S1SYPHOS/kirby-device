@@ -68,12 +68,12 @@ skipBotDetection()
 isBot()
 isMobile()
 isDesktop()
-isTouchEnabled() (win8 tablets only)
+isTouchEnabled() // win8 tablets only
 
 // General Client Type Methods
-getBot() array
-getClient() array|string (attr passed)
-getOs() array|string (attr passed)
+getBot() // array
+getClient() // array | optionally string, eg getClient('version'))
+getOs() // array | optionally string, eg getOs('version')
 getDevice()
 getDeviceName()
 getBrand()
@@ -101,6 +101,8 @@ isPIM()
 isLibrary()
 isMediaPlayer()
 ```
+
+Unless stated, all `isSomething()` methods return booleans, all `getSomething()` methods return strings.
 
 ## Examples
 
