@@ -2,7 +2,7 @@
   "name": "kirby-device",
   "description": "Comprehensive user agent & device detection for Kirby",
   "author": "S1SYPHOS <hello@twobrain.io>",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "type": "kirby-plugin",
   "license": "MIT"
 }
