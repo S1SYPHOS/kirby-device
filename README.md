@@ -14,8 +14,8 @@ This plugin detects devices (such as desktop, tablet, mobile, tv, cars, console,
 ## Main features
 `kirby-device` provides the `device()` function for parsing information from the target's user agent (UA) - the [black-magic voodoo science of regular expressions](https://blogs.perficient.com/perficientdigital/2017/12/04/the-magic-of-regex-an-intro-to-regular-expressions) then enables you to identify
 
-- [operating systems](https://github.com/matomo-org/device-detector#list-of-detected-operating-systems))
-- [browsers](https://github.com/matomo-org/device-detector#list-of-detected-browsers))
+- [operating systems](https://github.com/matomo-org/device-detector#list-of-detected-operating-systems)
+- [browsers](https://github.com/matomo-org/device-detector#list-of-detected-browsers)
 - [browser engines](https://github.com/matomo-org/device-detector#list-of-detected-browser-engines)
 - [libraries](https://github.com/matomo-org/device-detector#list-of-detected-libraries) (eg cURL, Perl, Wget, ..)
 - [media players](https://github.com/matomo-org/device-detector#list-of-detected-media-players)
@@ -132,12 +132,6 @@ if(device()->isDesktop() || device()->isTablet()) {
 ### .. and much more!
 
 ```php
-// Get user agent (UA)
-$ua = device()->getUserAgent();
-
-// Get operating system
-$os = device()->getOs();
-
 // Get mobile device information
 $brand = device()->getBrandName(); // eg 'Apple'
 $model = device()->getModel(); // eg 'iPhone'
