@@ -101,7 +101,7 @@ isLibrary()
 isMediaPlayer()
 ```
 
-Unless stated, all `isSomething()` methods return booleans, all `getSomething()` methods return strings.
+Unless stated, all `getSomething()` methods return strings and all `isSomething()` methods return booleans.
 
 ## Examples
 
