@@ -11,6 +11,7 @@
     }
   ],
   "require": {
+    "composer/installers": "~1.0",
     "piwik/device-detector": "^3.10",
     "doctrine/cache": "^1.7"
   }

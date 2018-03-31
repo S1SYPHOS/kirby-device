@@ -34,6 +34,12 @@ If you know your way around Git, you can download this plugin as a [submodule](h
 git submodule add https://github.com/S1SYPHOS/kirby-device.git site/plugins/kirby-device
 ```
 
+### Composer
+
+```text
+composer require S1SYPHOS/kirby-device:dev-composer
+```
+
 ### Clone or download
 1. [Clone](https://github.com/S1SYPHOS/kirby-device.git) or [download](https://github.com/S1SYPHOS/kirby-device/archive/master.zip)  this repository.
 2. Unzip / Move the folder to `site/plugins`.

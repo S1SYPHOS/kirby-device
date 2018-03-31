@@ -11,9 +11,6 @@
  */
 
 if (c::get('plugin.kirby-device', false)) {
-    // Initialising composer's autoloader
-    require_once __DIR__ . DS . 'vendor/autoload.php';
-
     // Loading settings & core
     require_once __DIR__ . DS . 'core' . DS . 'device_detection.php';
 
